@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Ruslan Display';
+  src: url('path/to/RuslanDisplay.woff2') format('woff2'); /* Укажите реальный путь */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Улучшает производительность загрузки [2] */
+}
+body {
+    font-family: sans-serif;
+}
+
+header {
+   background-color:#523939; 
+   padding:50px 0px 5px 0px;
+   text-align: center;
+}
+img {
+  width: 100px;
+  
+}
+header a {
+    padding: ;
+    background-color: #523939;
+    color: white;
+    margin: 30px;
+    padding:5px 30px 5px 30px;
+    text-decoration: none;
+
+}
+
+h1 {
+  font-family: 'Ruslan Display', cursive; /* cursive как fallback */
+   font-size: 36px;
+   text-align: center;
+}
+main a {
+    Color:#0F0DBF;
+    text-decoration:none ;
+    font-size: 24px;
+}
+footer {
+    margin: 100px 0px 0px 0px;
+    background-color: #C67979;
+    padding: 10px;
+
+} 
+footer a {
+  padding: 10px;
+  background-color: C67979;
+}
+
+
